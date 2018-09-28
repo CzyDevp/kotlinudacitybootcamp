@@ -1,7 +1,49 @@
-    fun main(args: Array<String>){
-        var crazy = CrazyDev()
-        crazy.printFromClass()
+import java.util.*
+
+fun main(args: Array<String>){
+    var crazy = CrazyDev()
+    crazy.printFromClass()
+    //fish =50
+    val fish =50
+    if(fish in 1..100)
+        println(fish)
+    when(fish){
+        50 -> println("full tank")
+        else -> println("nothing")
     }
+    //udacity quiz time
+    var welcomeMessage = "Hello and welcome to Kotlin"
+    when (welcomeMessage.length) {
+        0 -> println("Nothing to say?")
+        in 1..50 -> println("Perfect")   //true
+        else -> println("Too long!")
+    }
+    val trout = "trout"
+    var haddock = "haddock"
+    var snapper = "snapper"
+    println("I like to eat $trout and $snapper, but not a big fan of $haddock.")
+    val myList = mutableListOf("tuna","shark")
+    println(myList.remove("tuna"))
+    val intArrayEx = intArrayOf(1,2,3)
+    println(Arrays.toString(intArrayEx))
+    for ((index,element) in intArrayEx.withIndex())
+        println("$index and value is $element")
+    for (i in 1..5) print(i)
+    for (i in 1..5 step 2) println(i)
+    val array = arrayOf(1,1000,1000000,1000000000,1000000000000,1000000000000000000,1000000000000000000)
+    val sizes = arrayOf("byte", "kilobyte", "megabyte", "gigabyte",
+            "terabyte", "petabyte", "exabyte")
+    for ((i, value) in array.withIndex()) {
+            println("1 ${sizes[i]} = $value bytes")
+    }
+   /* val arrays = intArrayOf(11,12,13,14,15)
+    var list:List<String>
+    for (i in arrays){
+    }*/
+    /*for (i in 1..100)
+        if(i%7==0) print(i)*/
+    for (i in 0..100 step 7) println(i.toString() + " - ")
+}
 class CrazyDev{
     fun printFromClass(){
         printHello()
