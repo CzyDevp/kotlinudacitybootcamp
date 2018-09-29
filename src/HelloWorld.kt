@@ -1,9 +1,12 @@
 import java.util.*
 
 fun main(args: Array<String>){
+    val ams = AMS()
+    println(ams.dayOfWeek())
+    print("Your fortune is ${ams.birthDayFromUser()}")
+    println()
     var crazy = CrazyDev()
     crazy.printFromClass()
-    //fish =50
     val fish =50
     if(fish in 1..100)
         println(fish)
