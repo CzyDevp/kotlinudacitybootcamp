@@ -6,6 +6,8 @@ fun main(args: Array<String>){
     print("Your fortune is ${ams.birthDayFromUser()}")
     println()
     var crazy = CrazyDev()
+    crazy hey "nav"  //infix love
+    crazy.greet("Nav") //ext
     crazy.printFromClass()
     val fish =50
     if(fish in 1..100)
@@ -47,11 +49,12 @@ fun main(args: Array<String>){
         if(i%7==0) print(i)*/
     for (i in 0..100 step 7) println(i.toString() + " - ")
 }
-class CrazyDev{
-    fun printFromClass(){
+class CrazyDev {
+    fun printFromClass() {
         printHello()
     }
-    private fun printHello(){
+
+    private fun printHello() {
         2.plus(71).plus(233).minus(13).plus(1)
         var rainbowColor = "red"
         println("Rainbow color is $rainbowColor")
@@ -60,20 +63,28 @@ class CrazyDev{
         val blackColor = "black"
         println("Black color is $blackColor")
         //blackColor = "noblack"  //error
-        var greenColor:String? = null
+        var greenColor: String? = null
         println("Green color is $greenColor")
-        var blueColor:Int? = null
-        println("Blue color is ${blueColor?.inc()?:0}")
-        var list:List<Int?>  = listOf(1,null)
-        println("List's first element ${list.first()?:0}")
-        list.forEach {            // n:Int?->n?: print("No number is available")
-            when(it){
+        var blueColor: Int? = null
+        println("Blue color is ${blueColor?.inc() ?: 0}")
+        var list: List<Int?> = listOf(1, null)
+        println("List's first element ${list.first() ?: 0}")
+        list.forEach {
+            // n:Int?->n?: print("No number is available")
+            when (it) {
                 null -> print("$it do not have any value")
                 else -> print("value of Element is $it")
             }
         }
-        var nullTest:Int? =0
-        println("Number nullTest is: ${nullTest?.plus(5)?:0}")
+        var nullTest: Int? = 0
+        println("Number nullTest is: ${nullTest?.plus(5) ?: 0}")
         println("HelloWorld")
     }
+}
+
+ fun CrazyDev.greet(name:String){
+    println("hello $name merci")
+}
+infix fun CrazyDev.hey(name:String){
+    println("hello $name")
 }
