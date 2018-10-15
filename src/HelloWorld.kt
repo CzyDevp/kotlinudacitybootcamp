@@ -9,6 +9,11 @@ fun main(args: Array<String>){
     crazy hey "nav"  //infix love
     crazy.greet("Nav") //ext
     crazy.printFromClass()
+    //object
+    Calculator.total++
+    println("Number is ${Calculator.total}")
+    Calculator.a=10
+    println("A set to ${Calculator.a}")
     val fish =50
     if(fish in 1..100)
         println(fish)
@@ -87,4 +92,12 @@ class CrazyDev {
 }
 infix fun CrazyDev.hey(name:String){
     println("hello $name")
+    Calculator.total++
+}
+object Calculator:getInt(){
+ var total=0
+    override var a: Int = 0
+}
+open class getInt{
+    open var a:Int=0
 }
