@@ -1,6 +1,13 @@
 import java.util.*
 
 class AMS {
+
+    fun executeLamda(a:Int,b:Int,action:(a:Int,b:Int)->Unit){
+         action(a, b)
+    }
+
+    fun findMax(a:Int,b:Int,action:(a:Int,b:Int)->Unit)=  action(a,b)
+
      fun dayOfWeek():String{
          val day = Calendar.getInstance().get(Calendar.DAY_OF_WEEK)
          return when(day){
@@ -50,5 +57,7 @@ class AMS {
         }
     }
 
-    //fun swim(fas)
+    /*interface Decision{
+        fun addSum(a:Int,b:Int)
+    }*/
 }

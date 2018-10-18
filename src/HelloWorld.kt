@@ -1,7 +1,48 @@
+import Calculator.a
 import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.collections.HashMap
 
 fun main(args: Array<String>){
+
     val ams = AMS()
+
+    //list
+    var intList = listOf(1,2,3,4,5) //immutable   setOf, mapOf
+    var intList1 = mutableListOf(1,2,3,4,5) //immutable   setOf, mapOf
+    var intList2 = arrayListOf(1,2,3,4,5) //immutable   setOf, mapOf
+    var intList3 = ArrayList<Int>(10) //immutable   setOf, mapOf
+    for(a in intList)
+        print(a)
+    println()
+
+    //array
+    var arr = Array(5){0}
+    for(index in arr.indices) print(arr[index])   //indices return all the valid index
+    println()
+
+    //map
+    val map = mapOf(1 to "Nav",2 to "Gagan")
+    val map1 = HashMap<String,Int>()
+    val map2 = hashMapOf<Int,String>()
+    val map3 = mutableMapOf<Float,String>()
+    for(key in map.keys) println("$key value is  ${map[key]}")
+
+    //set
+    var setInt = setOf(1,2,3,4,4,5)
+    var set = mutableSetOf(1,2,3,4,4,5)
+    var sets = hashSetOf(1,2,3,4,4,5,8,7,3,24,43)
+    for (a in setInt) print(a)
+    println()
+    println("hashSet values go here")
+    for (a in sets) print(a)
+    println()
+    //lambda statements with func-higher-order func
+    var lambda = { a: Int, b: Int ->
+        println("Greater is ${if (a > b) a else b}")
+    }
+    ams.findMax(5,10,lambda)
+    ams.executeLamda(5,10){a,b ->   println(a+b)}
     println(ams.dayOfWeek())
     print("Your fortune is ${ams.birthDayFromUser()}")
     println()
@@ -17,6 +58,7 @@ fun main(args: Array<String>){
     val fish =50
     if(fish in 1..100)
         println(fish)
+
     when(fish){
         50 -> println("full tank")
         else -> println("nothing")
