@@ -1,4 +1,5 @@
 import java.util.*
+import kotlin.properties.Delegates
 
 class AMS {
 
@@ -61,4 +62,36 @@ class AMS {
     /*interface Decision{
         fun addSum(a:Int,b:Int)
     }*/
+}
+class Customer{
+    var name = "NAV"
+       get() {
+           return "hi $field \n"
+       }
+    set(value) {
+        println("Hello")
+        field  = value       //backing filed tech to reduce stackOverFlow
+    }
+    //lazy with val(final)
+    val age:Int by lazy {
+        28
+    }
+    //mutable
+    lateinit var sex:String
+
+    //observable and vetoabale
+    var address:String by Delegates.observable("Rue Chopin"){
+        prop,old,new -> println("Property is $prop , old Address is $old new Address is $new")
+    }
+
+    var postalCode:String by Delegates.vetoable("H4E 2S1"){
+        _,_,new ->
+        //println("Property is $prop , old PostalCode is $old new Address is $new")
+        new.length>=5
+    }
+}
+
+class Student( map: Map<String,Any?>){
+    val name:String by map
+    val id:Int by map
 }

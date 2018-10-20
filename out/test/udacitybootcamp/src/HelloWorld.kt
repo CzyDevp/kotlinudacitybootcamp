@@ -1,36 +1,59 @@
-import kotlin.collections.ArrayList;
+import java.util.*
 
-import kotlin.collections.HashMap;
+
 fun main(args: Array<String>){
+
+    //classes by delegation Employee
+    val appDeveloper = AppDeveloper()
+    val appDesigner = AppDesigner()
+    val employee = Employee(appDesigner,appDeveloper,EmpType.Manager)
+    employee.design()
+    employee.develop()
+    println("Employee type is ${employee.empType.badge}")
+    println("Employee type is ${employee.empType.name} and position is ${employee.empType.ordinal} }")
+    //classes by delegation Employee
 
     val ams = AMS()
 
+    //custom getter \
+    val customer = Customer()
+    println("Customer name is ${customer.name}")
+    println("Customer age is ${customer.age}")
+    customer.sex = "male"
+    println("Customer sex is ${customer.sex}")
+    customer.address = "Des TriniTaires"
+    println("Customer address is ${customer.address}")
+    customer.postalCode = "H4W2"
+    println("Customer PostalCode is ${customer.postalCode}")
+
+    //student with map
+
+    val student = Student(mapOf(
+            "name" to "John",
+            "id" to 1
+    ))
+    println("Student name is ${student.name} and id is ${student.id}")
     //list
     var intList = listOf(1,2,3,4,5) //immutable   setOf, mapOf
-    var intList1 = mutableListOf(1,2,3,4,5) //immutable   setOf, mapOf
+  /*  var intList1 = mutableListOf(1,2,3,4,5) //immutable   setOf, mapOf
     var intList2 = arrayListOf(1,2,3,4,5) //immutable   setOf, mapOf
-    var intList3 = ArrayList<Int>(10) //immutable   setOf, mapOf
-
-
+    var intList3 = ArrayList<Int>(10) //immutable   setOf, mapOf*/
     for(a in intList)
         print(a)
     println()
-
     //array
     var arr = Array(5){0}
     for(index in arr.indices) print(arr[index])   //indices return all the valid index
     println()
-
     //map
     val map = mapOf(1 to "Nav",2 to "Gagan")
-    val map1 = HashMap<String,Int>()
+/*    val map1 = HashMap<String,Int>()
     val map2 = hashMapOf<Int,String>()
-    val map3 = mutableMapOf<Float,String>()
+    val map3 = mutableMapOf<Float,String>()*/
     for(key in map.keys) println("$key value is  ${map[key]}")
-
     //set
     var setInt = setOf(1,2,3,4,4,5)
-    var set = mutableSetOf(1,2,3,4,4,5)
+/*    var set = mutableSetOf(1,2,3,4,4,5)*/
     var sets = hashSetOf(1,2,3,4,4,5,8,7,3,24,43)
     for (a in setInt) print(a)
     println()
@@ -58,7 +81,6 @@ fun main(args: Array<String>){
     val fish =50
     if(fish in 1..100)
         println(fish)
-
     when(fish){
         50 -> println("full tank")
         else -> println("nothing")
@@ -128,7 +150,6 @@ class CrazyDev {
         println("HelloWorld")
     }
 }
-
  fun CrazyDev.greet(name:String){
     println("hello $name merci")
 }
