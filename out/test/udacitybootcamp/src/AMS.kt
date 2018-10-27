@@ -101,6 +101,9 @@ class Student( map: Map<String,Any?>){
     }
 }
 
-interface StudentCompare<T>{
+interface StudentCompare<in T>{
     fun compare(item:T,item1:T):Int
+}
+interface StudentCompareOut<out T>{
+    fun compare(item:Int,item1:Int):T
 }

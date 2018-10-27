@@ -1,12 +1,40 @@
 import java.util.*
 
-
 fun main(args: Array<String>){
 
+    //mood udaCity
+    val mood  = Mood()
+    println(mood.weather("Sad"))
+    //spices UdaCity
+    println(mood.spices.sortedBy { it.length })
+    println(mood.spices.filter { it -> it.startsWith("c" ) && it.endsWith("e") })
+    println(mood.spices.take(3).filter { it.startsWith("c") })
+    val rollDice2: (Int) -> Int = { sides ->
+        if (sides == 0) 0
+        else Random().nextInt(sides) + 1
+    }
+    println("Number is ${mood.gamePlay(rollDice2(10))}")
+    //Spice class
+    val spice = Spice()
+    println("${spice.name}" )
+    //val spiceFishes = Spice(5)
+    //println("Heat is ${spiceFishes.heat}")
+    val spices1 = listOf(
+            Spice("curry", "mild"),
+            Spice("pepper", "medium"),
+            Spice("cayenne", "spicy"),
+            Spice("ginger", "mild"),
+            Spice("red curry", "medium"),
+            Spice("green curry", "mild"),
+            Spice("hot pepper", "extremely spicy")
+    )
+    spices1.filter {it.heat < 5}.forEach { println(it.name) }
+    mood.spiceContainers.forEach { println(it.label) }
+
     //classes by delegation Employee
-    val appDeveloper = AppDeveloper()
-    val appDesigner = AppDesigner()
-    val employee = Employee(appDesigner,appDeveloper,EmpType.Manager)
+    val appDeveloper = Developer.AppDeveloper()
+    val appDesigner = Developer.AppDesigner()
+    val employee = Developer.Employee(appDesigner, appDeveloper, Developer.EmpType.Manager)
     employee.design()
     employee.develop()
     println("Employee type is ${employee.empType.badge}")
