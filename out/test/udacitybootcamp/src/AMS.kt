@@ -94,4 +94,13 @@ class Customer{
 class Student( map: Map<String,Any?>){
     val name:String by map
     val id:Int by map
+    val studentCompare:StudentCompare<Student> = object: StudentCompare<Student>{
+        override fun compare(item: Student, item1: Student): Int {
+            return item.id - item1.id
+        }
+    }
+}
+
+interface StudentCompare<T>{
+    fun compare(item:T,item1:T):Int
 }

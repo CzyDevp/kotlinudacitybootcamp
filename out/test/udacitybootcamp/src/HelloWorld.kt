@@ -10,7 +10,7 @@ fun main(args: Array<String>){
     employee.design()
     employee.develop()
     println("Employee type is ${employee.empType.badge}")
-    println("Employee type is ${employee.empType.name} and position is ${employee.empType.ordinal} }")
+    println("Employee type is ${employee.empType.name} and position is ${employee.empType.ordinal} ")
     //classes by delegation Employee
 
     val ams = AMS()
@@ -27,12 +27,22 @@ fun main(args: Array<String>){
     println("Customer PostalCode is ${customer.postalCode}")
 
     //student with map
-
     val student = Student(mapOf(
             "name" to "John",
             "id" to 1
     ))
+    val student1 = Student(mapOf(
+            "name" to "John",
+            "id" to 1
+    ))
     println("Student name is ${student.name} and id is ${student.id}")
+
+    println("Comparator running here ${student.studentCompare.compare(student,student1)}")
+
+    //sealed class
+    val samsung = Samsung("Red",200,"Android")
+    println("Phone color is ${samsung.color} and price is ${samsung.price} and type is ${samsung.type}")
+
     //list
     var intList = listOf(1,2,3,4,5) //immutable   setOf, mapOf
   /*  var intList1 = mutableListOf(1,2,3,4,5) //immutable   setOf, mapOf

@@ -31,7 +31,13 @@ fun main(args: Array<String>){
             "name" to "John",
             "id" to 1
     ))
+    val student1 = Student(mapOf(
+            "name" to "John",
+            "id" to 1
+    ))
     println("Student name is ${student.name} and id is ${student.id}")
+
+    println("Comparator running here ${student.studentCompare.compare(student,student1)}")
 
     //sealed class
     val samsung = Samsung("Red",200,"Android")
