@@ -11,6 +11,8 @@ class Mood {
     fun gamePlay(roll:Int){
         println(roll)
     }
+
+
     val spiceContainers = listOf(SpiceContainer(Spice("Yellow Curry", "mild")),
             SpiceContainer(Spice("Red Curry", "medium")),
             SpiceContainer(Spice("Green Curry", "spicy"))
@@ -83,7 +85,7 @@ interface Grind{
 }
 
 interface CurryColor{
-    val color:String
+    val color:Color
 }
 class Curry(val Spiceness:Int,color: CurryColor = YellowCurryColor ):SpiceP(color),Grind{
     override fun prepareSpice() {
@@ -95,12 +97,19 @@ class Curry(val Spiceness:Int,color: CurryColor = YellowCurryColor ):SpiceP(colo
 }
 
 object YellowCurryColor : CurryColor{
-    override val color: String
-        get() = "YellowCurry"
+    override val color: Color
+        get() = Color.YELLOW
+  /*  fun getColorEnumValueAll(){
+        println(Color.YELLOW.rgb)
+    }*/
 }
 
 data class SpiceContainer(val spice:Spice){
     val label= spice.name
 
+}
+
+enum class Color(val rgb:Int){
+    YELLOW(0xFFFF00)
 }
 

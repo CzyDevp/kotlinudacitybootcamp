@@ -2,6 +2,23 @@ import java.util.*
 
 fun main(args: Array<String>){
 
+     //pairs by Book
+    val book=Book("Java","Nav")
+    fun getPairDetailbook(book: Book):Pair<String,String>{
+        return book.title to book.author
+    }
+    val (title,author ) = getPairDetailbook(book)
+    println("Book $title is written by $author")
+
+    //set of titles by William
+    val allBooks = setOf("Macbeth", "Romeo and Juliet", "Hamlet", "A Midsummer Night's Dream")
+    val setBooks = setOf("kt","groovy","a#")
+    val library = mapOf("William" to allBooks,"Nav" to setBooks)
+    println(library.any { it.value.contains("Hamlet") })
+    val moreBooks = mutableMapOf("Nav" to "kt")
+    moreBooks.getOrPut("Nav"){"Java"}
+    println("Book from more books is ${moreBooks["Nav"]}")
+
     //mood udaCity
     val mood  = Mood()
     println(mood.weather("Sad"))
@@ -195,10 +212,10 @@ infix fun CrazyDev.hey(name:String){
     println("hello $name")
     Calculator.total++
 }
-object Calculator:getInt(){
+object Calculator:GetInt(){
  var total=0
     override var a: Int = 0
 }
-open class getInt{
+open class GetInt{
     open var a:Int=0
 }
