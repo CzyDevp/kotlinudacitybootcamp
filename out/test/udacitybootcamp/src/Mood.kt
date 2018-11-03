@@ -50,11 +50,20 @@ class SpecialSpice : Spice(){
 
 
 }
-
+const  val MAX_NUMBER_BOOKS = 20
 open class Book(open val title:String,open val author:String){
+
     private var pageCount = 0
     open fun pageCount(){
         pageCount++
+    }
+
+    fun canBorrow(hasBooks: Int): Boolean {
+        return (hasBooks < MAX_NUMBER_BOOKS)
+    }
+
+    companion object {
+        val BASE_URL = "http://www.turtlecare.net/"
     }
 
     open fun printDetail()= println("Book Title is $title written by $author and has total pages $pageCount ")

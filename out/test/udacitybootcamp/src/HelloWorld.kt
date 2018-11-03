@@ -1,6 +1,7 @@
 import java.util.*
-
+const val nom = "nav"   //compiled time
 fun main(args: Array<String>){
+
      //pairs by Book
     val book=Book("Java","Nav")
     fun getPairDetailbook(book: Book):Pair<String,String>{
@@ -173,6 +174,7 @@ fun main(args: Array<String>){
     for (i in 0..100 step 7) println(i.toString() + " - ")
 }
 class CrazyDev {
+
     fun printFromClass() {
         printHello()
     }

@@ -1,15 +1,14 @@
 import java.util.*
-
+const val nom = "nav"   //compiled time
 fun main(args: Array<String>){
 
-     //pairs by Book
+    //**************************************************Book**********************************************************\\
     val book=Book("Java","Nav")
     fun getPairDetailbook(book: Book):Pair<String,String>{
         return book.title to book.author
     }
     val (title,author ) = getPairDetailbook(book)
     println("Book $title is written by $author")
-
     //set of titles by William
     val allBooks = setOf("Macbeth", "Romeo and Juliet", "Hamlet", "A Midsummer Night's Dream")
     val setBooks = setOf("kt","groovy","a#")
@@ -18,8 +17,9 @@ fun main(args: Array<String>){
     val moreBooks = mutableMapOf("Nav" to "kt")
     moreBooks.getOrPut("Nav"){"Java"}
     println("Book from more books is ${moreBooks["Nav"]}")
+    //**************************************************Book**********************************************************\\
 
-    //mood udaCity
+    //**********************************************mood udaCity******************************************************\\
     val mood  = Mood()
     println(mood.weather("Sad"))
     //spices UdaCity
@@ -31,11 +31,11 @@ fun main(args: Array<String>){
         else Random().nextInt(sides) + 1
     }
     println("Number is ${mood.gamePlay(rollDice2(10))}")
-    //Spice class
+    //**********************************************mood udaCity******************************************************\\
+
+    //**********************************************spicy udaCity*****************************************************\\
     val spice = Spice()
     println("${spice.name}" )
-    //val spiceFishes = Spice(5)
-    //println("Heat is ${spiceFishes.heat}")
     val spices1 = listOf(
             Spice("curry", "mild"),
             Spice("pepper", "medium"),
@@ -47,8 +47,9 @@ fun main(args: Array<String>){
     )
     spices1.filter {it.heat < 5}.forEach { println(it.name) }
     mood.spiceContainers.forEach { println(it.label) }
+    //**********************************************spicy udaCity*****************************************************\\
 
-    //classes by delegation Employee
+    //*********************************************Employee by delegation*********************************************\\
     val appDeveloper = Developer.AppDeveloper()
     val appDesigner = Developer.AppDesigner()
     val employee = Developer.Employee(appDesigner, appDeveloper, Developer.EmpType.Manager)
@@ -56,11 +57,10 @@ fun main(args: Array<String>){
     employee.develop()
     println("Employee type is ${employee.empType.badge}")
     println("Employee type is ${employee.empType.name} and position is ${employee.empType.ordinal} ")
-    //classes by delegation Employee
+    //*********************************************Employee by delegation*********************************************\\
 
+    //************************************************Customer********************************************************\\
     val ams = AMS()
-
-    //custom getter \
     val customer = Customer()
     println("Customer name is ${customer.name}")
     println("Customer age is ${customer.age}")
@@ -70,8 +70,9 @@ fun main(args: Array<String>){
     println("Customer address is ${customer.address}")
     customer.postalCode = "H4W2"
     println("Customer PostalCode is ${customer.postalCode}")
+    //************************************************Customer********************************************************\\
 
-    //student with map
+    //**************************************************Student*******************************************************\\
     val student = Student(mapOf(
             "name" to "John",
             "id" to 1
@@ -81,16 +82,15 @@ fun main(args: Array<String>){
             "id" to 1
     ))
     println("Student name is ${student.name} and id is ${student.id}")
-
     println("Comparator running here ${student.studentCompare.compare(student,student1)}")
+    //**************************************************Student*******************************************************\\
 
-    //sealed class
+    //**************************************************Sealed Class & Collection*************************************\\
     val samsung = Samsung("Red",200,"Android")
     println("Phone color is ${samsung.color} and price is ${samsung.price} and type is ${samsung.type}")
-
     //list
     var intList = listOf(1,2,3,4,5) //immutable   setOf, mapOf
-  /*  var intList1 = mutableListOf(1,2,3,4,5) //immutable   setOf, mapOf
+    /*var intList1 = mutableListOf(1,2,3,4,5) //immutable   setOf, mapOf
     var intList2 = arrayListOf(1,2,3,4,5) //immutable   setOf, mapOf
     var intList3 = ArrayList<Int>(10) //immutable   setOf, mapOf*/
     for(a in intList)
@@ -102,13 +102,13 @@ fun main(args: Array<String>){
     println()
     //map
     val map = mapOf(1 to "Nav",2 to "Gagan")
-/*    val map1 = HashMap<String,Int>()
+    /*val map1 = HashMap<String,Int>()
     val map2 = hashMapOf<Int,String>()
     val map3 = mutableMapOf<Float,String>()*/
     for(key in map.keys) println("$key value is  ${map[key]}")
     //set
     var setInt = setOf(1,2,3,4,4,5)
-/*    var set = mutableSetOf(1,2,3,4,4,5)*/
+    /*var set = mutableSetOf(1,2,3,4,4,5)*/
     var sets = hashSetOf(1,2,3,4,4,5,8,7,3,24,43)
     for (a in setInt) print(a)
     println()
@@ -128,7 +128,9 @@ fun main(args: Array<String>){
     crazy hey "nav"  //infix love
     crazy.greet("Nav") //ext
     crazy.printFromClass()
-    //object
+    //**************************************************Sealed Class & Collection*************************************\\
+
+    //**************************************************Basic Examples************************************************\\
     Calculator.total++
     println("Number is ${Calculator.total}")
     Calculator.a=10
@@ -172,12 +174,15 @@ fun main(args: Array<String>){
     /*for (i in 1..100)
         if(i%7==0) print(i)*/
     for (i in 0..100 step 7) println(i.toString() + " - ")
+    //**************************************************Basic Examples************************************************\\
 }
 class CrazyDev {
+
     fun printFromClass() {
         printHello()
     }
 
+    //**************************************************Basic Example*************************************************\\
     private fun printHello() {
         2.plus(71).plus(233).minus(13).plus(1)
         var rainbowColor = "red"
@@ -204,18 +209,31 @@ class CrazyDev {
         println("Number nullTest is: ${nullTest?.plus(5) ?: 0}")
         println("HelloWorld")
     }
+    //**************************************************Basic Example*************************************************\\
 }
- fun CrazyDev.greet(name:String){
-    println("hello $name merci")
-}
-infix fun CrazyDev.hey(name:String){
-    println("hello $name")
-    Calculator.total++
-}
-object Calculator:GetInt(){
- var total=0
-    override var a: Int = 0
-}
-open class GetInt{
-    open var a:Int=0
-}
+
+    //***********************************************Extension Func***************************************************\\
+    fun CrazyDev.greet(name:String){
+      println("hello $name merci")
+    }
+    //***********************************************Extension Func***************************************************\\
+
+    //***********************************************InFix Func*******************************************************\\
+    infix fun CrazyDev.hey(name:String){
+        println("hello $name")
+        Calculator.total++
+    }
+    //***********************************************InFix Func*******************************************************\\
+
+    //*************************************************Object*********************************************************\\
+    object Calculator:GetInt(){
+        var total=0
+        override var a: Int = 0
+    }
+    //*************************************************Object*********************************************************\\
+
+    //*************************************************open class*****************************************************\\
+    open class GetInt{
+         open var a:Int=0
+    }
+    //*************************************************open class*****************************************************\\
