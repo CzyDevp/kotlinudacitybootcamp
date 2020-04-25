@@ -22,9 +22,7 @@ interface Developer {
         }
     }
 
-    class Employee(designer: Designer, developer: Developer, empType: EmpType) : Developer by developer, Designer by designer {
-        var empType: EmpType = empType
-    }
+    class Employee(designer: Designer, developer: Developer, var empType: EmpType) : Developer by developer, Designer by designer
 
     enum class EmpType(val badge: Int) {
         Manager(badge = 1),
