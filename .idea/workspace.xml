@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a6c5ad5-cdf5-4396-96a5-665d2592a9aa" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/InterfaceEx.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -56,18 +57,25 @@
       <change beforePath="$PROJECT_DIR$/out/test/udacitybootcamp/src/HelloWorld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/udacitybootcamp/src/HelloWorld.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/udacitybootcamp/src/Mood.kt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/udacitybootcamp/src/Mood.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/test/udacitybootcamp/src/Test.java" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AMS.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/AMS.kt" afterDir="false" />
+>>>>>>> 9c8e9d51a6744ae53e4004b455a3769b0f2e3890
       <change beforePath="$PROJECT_DIR$/src/Employee.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Mood.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mood.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
   <component name="FavoritesManager">
     <favorites_list name="kotlinudacitybootcamp" />
   </component>
+=======
+>>>>>>> 9c8e9d51a6744ae53e4004b455a3769b0f2e3890
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -80,7 +88,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+<<<<<<< HEAD
   <component name="ProjectId" id="1VwXxcVhDdCkQwZuGdMs0iH01aq" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="775" />
+  </component>
+  <component name="ProjectId" id="1b3Jd9ykNqFM237BqN2jNIFV2xj" />
+>>>>>>> 9c8e9d51a6744ae53e4004b455a3769b0f2e3890
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -100,16 +117,25 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RunManager" selected="Kotlin.InterfaceExKt">
     <configuration name="HelloWorldKt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloWorldKt" />
+=======
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunManager" selected="Kotlin.Unnamed">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+>>>>>>> 9c8e9d51a6744ae53e4004b455a3769b0f2e3890
       <module name="udacitybootcamp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="InterfaceExKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="udacitybootcamp" />
       <option name="VM_PARAMETERS" />
@@ -123,6 +149,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+=======
+>>>>>>> 9c8e9d51a6744ae53e4004b455a3769b0f2e3890
     <configuration name="Unnamed" type="JetRunConfigurationType">
       <module name="udacitybootcamp" />
       <option name="VM_PARAMETERS" value="" />
@@ -137,9 +165,14 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="Application.HelloWorldKt" />
       <item itemvalue="Kotlin.Unnamed" />
       <item itemvalue="Kotlin.InterfaceExKt" />
+=======
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Kotlin.Unnamed" />
+>>>>>>> 9c8e9d51a6744ae53e4004b455a3769b0f2e3890
     </list>
     <recent_temporary>
       <list>
@@ -186,6 +219,7 @@
       <workItem from="1539814163218" duration="578000" />
       <workItem from="1539815143666" duration="150000" />
       <workItem from="1539820900507" duration="4034000" />
+<<<<<<< HEAD
       <workItem from="1552335281271" duration="584000" />
       <workItem from="1552588489454" duration="40000" />
       <workItem from="1552613900673" duration="87000" />
@@ -207,6 +241,11 @@
       <workItem from="1580229587181" duration="618000" />
       <workItem from="1588216969946" duration="319000" />
       <workItem from="1588298468414" duration="255000" />
+=======
+      <workItem from="1587854931372" duration="230000" />
+      <workItem from="1587855258962" duration="66000" />
+      <workItem from="1587855378057" duration="765000" />
+>>>>>>> 9c8e9d51a6744ae53e4004b455a3769b0f2e3890
     </task>
     <task id="LOCAL-00001" summary="chapter 2 completed!!">
       <created>1538103145602</created>
@@ -235,6 +274,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="chapter 2 completed!!" />
   </component>
   <component name="WindowStateProjectService">
+<<<<<<< HEAD
     <state width="1625" height="416" key="GridCell.Tab.0.bottom" timestamp="1588298800748">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
@@ -351,5 +391,23 @@
         </settings>
       </state>
     </states>
+=======
+    <state x="531" y="272" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1587854968519">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="531" y="272" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1587854968519" />
+    <state x="263" y="38" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor" timestamp="1587854966250">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="263" y="38" key="#com.intellij.openapi.projectRoots.ui.ProjectJdksEditor/0.0.1366.768@0.0.1366.768" timestamp="1587854966250" />
+    <state x="184" y="26" key="SettingsEditor" timestamp="1587855775388">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="26" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1587855775388" />
+    <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1587855416683">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1587855416683" />
+>>>>>>> 9c8e9d51a6744ae53e4004b455a3769b0f2e3890
   </component>
 </project>

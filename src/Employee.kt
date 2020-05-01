@@ -39,6 +39,7 @@ interface Developer {
         }
     }
 
+
     enum class EmpType(val badge: Int) {
         Manager(badge = 1),
         Clerk(badge = 2),

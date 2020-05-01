@@ -1,4 +1,5 @@
 import java.util.*
+
 fun main(args: Array<String>){
     //string interpolation
     val change = 0.06
@@ -110,7 +111,7 @@ fun main(args: Array<String>){
     for(index in arr.indices) print(arr[index])   //indices return all the valid index
     println()
     //map
-    val map = mapOf(1 to "Nav",2 to "Gagan")
+    val map = mapOf(1 to "Nav",2 to "Singh")
     /*val map1 = HashMap<String,Int>()
     val map2 = hashMapOf<Int,String>()
     val map3 = mutableMapOf<Float,String>()*/
@@ -129,9 +130,8 @@ fun main(args: Array<String>){
         println("Greater is ${if (a > b) a else b}")
     }
     ams.findMax(5,10,lambda)
-    ams.executeLamda(5,10){a,b ->   println(a+b)}
+    ams.executeLambda(5,10){ a, b ->   println(a+b)}
     println(ams.dayOfWeek())
-    print("Your fortune is ${ams.birthDayFromUser()}")
     println()
     val crazy = CrazyDev()
     crazy hey "nav"  //infix love
@@ -200,7 +200,6 @@ class CrazyDev {
         println("Rainbow color is $rainbowColor")
         val blackColor = "black"
         println("Black color is $blackColor")
-        //blackColor = "noblack"  //error
         val greenColor: String? = null
         println("Green color is $greenColor")
         val blueColor: Int? = null
