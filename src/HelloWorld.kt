@@ -1,7 +1,16 @@
 import java.util.*
-const val nom = "nav"   //compiled time
 fun main(args: Array<String>){
+    //string interpolation
+    val change = 0.06
+    println("Change is $$change")
+    val rawString = """Nav is crazy dev
+                       |I hope ll enjoy
+    """
 
+    val myGen = MyGen<String>()
+    myGen.add("String")
+
+    println(rawString)
     //**************************************************Book**********************************************************\\
     val book=Book("Java","Nav")
     fun getPairDetailbook(book: Book):Pair<String,String>{
@@ -24,7 +33,7 @@ fun main(args: Array<String>){
     println(mood.weather("Sad"))
     //spices UdaCity
     println(mood.spices.sortedBy { it.length })
-    println(mood.spices.filter { it -> it.startsWith("c" ) && it.endsWith("e") })
+    println(mood.spices.filter { it.startsWith("c" ) && it.endsWith("e") })
     println(mood.spices.take(3).filter { it.startsWith("c") })
     val rollDice2: (Int) -> Int = { sides ->
         if (sides == 0) 0
@@ -35,7 +44,7 @@ fun main(args: Array<String>){
 
     //**********************************************spicy udaCity*****************************************************\\
     val spice = Spice()
-    println("${spice.name}" )
+    println(spice.name)
     val spices1 = listOf(
             Spice("curry", "mild"),
             Spice("pepper", "medium"),
@@ -89,7 +98,7 @@ fun main(args: Array<String>){
     val samsung = Samsung("Red",200,"Android")
     println("Phone color is ${samsung.color} and price is ${samsung.price} and type is ${samsung.type}")
     //list
-    var intList = listOf(1,2,3,4,5) //immutable   setOf, mapOf
+    val intList = listOf(1,2,3,4,5) //immutable   setOf, mapOf
     /*var intList1 = mutableListOf(1,2,3,4,5) //immutable   setOf, mapOf
     var intList2 = arrayListOf(1,2,3,4,5) //immutable   setOf, mapOf
     var intList3 = ArrayList<Int>(10) //immutable   setOf, mapOf*/
@@ -97,7 +106,7 @@ fun main(args: Array<String>){
         print(a)
     println()
     //array
-    var arr = Array(5){0}
+    val arr = Array(5){0}
     for(index in arr.indices) print(arr[index])   //indices return all the valid index
     println()
     //map
@@ -107,16 +116,16 @@ fun main(args: Array<String>){
     val map3 = mutableMapOf<Float,String>()*/
     for(key in map.keys) println("$key value is  ${map[key]}")
     //set
-    var setInt = setOf(1,2,3,4,4,5)
+    val setInt = setOf(1,2,3,4,4,5)
     /*var set = mutableSetOf(1,2,3,4,4,5)*/
-    var sets = hashSetOf(1,2,3,4,4,5,8,7,3,24,43)
+    val sets = hashSetOf(1,2,3,4,4,5,8,7,3,24,43)
     for (a in setInt) print(a)
     println()
     println("hashSet values go here")
     for (a in sets) print(a)
     println()
     //lambda statements with func-higher-order func
-    var lambda = { a: Int, b: Int ->
+    val lambda = { a: Int, b: Int ->
         println("Greater is ${if (a > b) a else b}")
     }
     ams.findMax(5,10,lambda)
@@ -124,7 +133,7 @@ fun main(args: Array<String>){
     println(ams.dayOfWeek())
     print("Your fortune is ${ams.birthDayFromUser()}")
     println()
-    var crazy = CrazyDev()
+    val crazy = CrazyDev()
     crazy hey "nav"  //infix love
     crazy.greet("Nav") //ext
     crazy.printFromClass()
@@ -143,20 +152,20 @@ fun main(args: Array<String>){
         else -> println("nothing")
     }
     //udacity quiz time
-    var welcomeMessage = "Hello and welcome to Kotlin"
+    val welcomeMessage = "Hello and welcome to Kotlin"
     when (welcomeMessage.length) {
         0 -> println("Nothing to say?")
         in 1..50 -> println("Perfect")   //true
         else -> println("Too long!")
     }
     val trout = "trout"
-    var haddock = "haddock"
-    var snapper = "snapper"
+    val haddock = "haddock"
+    val snapper = "snapper"
     println("I like to eat $trout and $snapper, but not a big fan of $haddock.")
     val myList = mutableListOf("tuna","shark")
     println(myList.remove("tuna"))
     val intArrayEx = intArrayOf(1,2,3)
-    println(Arrays.toString(intArrayEx))
+    println(intArrayEx.contentToString())
     for ((index,element) in intArrayEx.withIndex())
         println("$index and value is $element")
     for (i in 1..5) print(i)
@@ -173,7 +182,7 @@ fun main(args: Array<String>){
     }*/
     /*for (i in 1..100)
         if(i%7==0) print(i)*/
-    for (i in 0..100 step 7) println(i.toString() + " - ")
+    for (i in 0..100 step 7) println("$i - ")
     //**************************************************Basic Examples************************************************\\
 }
 class CrazyDev {
@@ -192,11 +201,11 @@ class CrazyDev {
         val blackColor = "black"
         println("Black color is $blackColor")
         //blackColor = "noblack"  //error
-        var greenColor: String? = null
+        val greenColor: String? = null
         println("Green color is $greenColor")
-        var blueColor: Int? = null
+        val blueColor: Int? = null
         println("Blue color is ${blueColor?.inc() ?: 0}")
-        var list: List<Int?> = listOf(1, null)
+        val list: List<Int?> = listOf(1, null)
         println("List's first element ${list.first() ?: 0}")
         list.forEach {
             // n:Int?->n?: print("No number is available")
@@ -205,7 +214,7 @@ class CrazyDev {
                 else -> print("value of Element is $it")
             }
         }
-        var nullTest: Int? = 0
+        val nullTest: Int? = 0
         println("Number nullTest is: ${nullTest?.plus(5) ?: 0}")
         println("HelloWorld")
     }

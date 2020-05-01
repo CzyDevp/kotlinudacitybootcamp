@@ -19,11 +19,11 @@ class Mood {
 
     )
 }
-open class Spice(val name:String = "Curry",val spiceness:String = "Mild"){
+open class Spice(val name:String = "Curry", private val spiceNess:String = "Mild"){
 
      open
      val heat:Int get() {
-        return when(spiceness){
+        return when(spiceNess){
             "mild" -> 1
             "medium" -> 3
             "spicy" -> 5

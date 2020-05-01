@@ -2,277 +2,127 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a6c5ad5-cdf5-4396-96a5-665d2592a9aa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/AMS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/AMS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Book$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Book$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Book.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Calculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Calculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/CrazyDev.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/CrazyDev.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Curry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Curry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/CurryColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/CurryColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Customer$$special$$inlined$observable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Customer$$special$$inlined$observable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Customer$$special$$inlined$vetoable$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Customer$$special$$inlined$vetoable$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Customer$age$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Customer$age$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Designer$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Designer$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Designer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Designer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer$AppDesigner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer$AppDesigner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer$AppDeveloper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer$AppDeveloper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer$EmpType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer$EmpType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer$Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer$Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Developer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/EBook.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/EBook.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Grind$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Grind$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Grind.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Grind.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt$main$$inlined$sortedBy$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt$main$$inlined$sortedBy$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt$main$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt$main$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt$main$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt$main$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt$main$lambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt$main$lambda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt$main$rollDice2$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt$main$rollDice2$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/HelloWorldKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/META-INF/udacitybootcamp.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/META-INF/udacitybootcamp.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Mood.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Mood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/MoodKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/MoodKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Phone.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Samsung.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Samsung.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/SpecialSpice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/SpecialSpice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Spice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Spice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/SpiceContainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/SpiceContainer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/SpiceP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/SpiceP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Student$studentCompare$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Student$studentCompare$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/StudentCompare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/StudentCompare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/StudentCompareOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/StudentCompareOut.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/YellowCurryColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/YellowCurryColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/udacitybootcamp/getInt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udacitybootcamp/getInt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/udacitybootcamp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/udacitybootcamp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/udacitybootcamp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/udacitybootcamp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/udacitybootcamp/src/Employee.kt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/udacitybootcamp/src/Employee.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/udacitybootcamp/src/HelloWorld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/udacitybootcamp/src/HelloWorld.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/udacitybootcamp/src/Mood.kt" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/udacitybootcamp/src/Mood.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/udacitybootcamp/src/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Employee.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Employee.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/HelloWorld.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/HelloWorld.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mood.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mood.kt" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="766346500">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="kt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Kotlin" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="kt" value="42" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Kotlin" value="42" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="1516251238">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.108" value="1" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.121" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.24" value="1" />
-          <entry key="project.open.time.30" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.48" value="1" />
-          <entry key="project.open.time.53" value="1" />
-          <entry key="project.open.time.54" value="2" />
-          <entry key="project.open.time.71" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="kt" value="3676" />
-          <entry key="txt" value="28" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Kotlin" value="3676" />
-          <entry key="PLAIN_TEXT" value="28" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="kt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Kotlin" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-1157276961">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="2" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.31" value="3" />
-          <entry key="project.open.time.33" value="1" />
-          <entry key="project.open.time.36" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="12" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="kt" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Kotlin" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="kt" value="5487" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Kotlin" value="5487" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/HelloWorld.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="176" selection-start-line="176" selection-end-line="176" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Employee.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AMS.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Mood.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FavoritesManager">
+    <favorites_list name="kotlinudacitybootcamp" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Chapter3Functions.kt" />
-        <option value="$PROJECT_DIR$/src/SealedEx.kt" />
-        <option value="$PROJECT_DIR$/src/AMS.kt" />
-        <option value="$PROJECT_DIR$/src/Employee.kt" />
-        <option value="$PROJECT_DIR$/src/HelloWorld.kt" />
-        <option value="$PROJECT_DIR$/src/Mood.kt" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="697" />
-    <option name="height" value="775" />
-  </component>
+  <component name="ProjectId" id="1VwXxcVhDdCkQwZuGdMs0iH01aq" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kotlinudacitybootcamp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlinudacitybootcamp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlinudacitybootcamp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlinudacitybootcamp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kotlinudacitybootcamp" type="58d84e3e:PackageViewProjectNode" />
-              <item name="udacitybootcamp" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Course" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="Book&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541257041219" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Compressed/Fx" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576733342625" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
+  <component name="RunManager" selected="Kotlin.InterfaceExKt">
+    <configuration name="HelloWorldKt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorldKt" />
       <module name="udacitybootcamp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="InterfaceExKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="udacitybootcamp" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="InterfaceExKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JetRunConfigurationType">
       <module name="udacitybootcamp" />
       <option name="VM_PARAMETERS" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -286,14 +136,28 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.HelloWorldKt" />
       <item itemvalue="Kotlin.Unnamed" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Kotlin.InterfaceExKt" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
+        <item itemvalue="Kotlin.InterfaceExKt" />
+        <item itemvalue="Application.HelloWorldKt" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -321,6 +185,26 @@
       <workItem from="1539814163218" duration="578000" />
       <workItem from="1539815143666" duration="150000" />
       <workItem from="1539820900507" duration="4034000" />
+      <workItem from="1552335281271" duration="584000" />
+      <workItem from="1552588489454" duration="40000" />
+      <workItem from="1552613900673" duration="87000" />
+      <workItem from="1554342357846" duration="559000" />
+      <workItem from="1555100883296" duration="11000" />
+      <workItem from="1555948703325" duration="521000" />
+      <workItem from="1561055483206" duration="795000" />
+      <workItem from="1561084459788" duration="323000" />
+      <workItem from="1562158728680" duration="278000" />
+      <workItem from="1576732972539" duration="429000" />
+      <workItem from="1578155372541" duration="134000" />
+      <workItem from="1578156334451" duration="203000" />
+      <workItem from="1578165385823" duration="173000" />
+      <workItem from="1580226848701" duration="416000" />
+      <workItem from="1580227373569" duration="1434000" />
+      <workItem from="1580229150399" duration="138000" />
+      <workItem from="1580229302461" duration="27000" />
+      <workItem from="1580229342457" duration="229000" />
+      <workItem from="1580229587181" duration="618000" />
+      <workItem from="1588216969946" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="chapter 2 completed!!">
       <created>1538103145602</created>
@@ -332,9 +216,6 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21941000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -344,89 +225,46 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1452345" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.5323077" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32923076" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49621785" visible="true" weight="0.22153845" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.27846155" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.36153847" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="chapter 2 completed!!" />
     <option name="LAST_COMMIT_MESSAGE" value="chapter 2 completed!!" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/SealedEx.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Employee.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AMS.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="91" column="1" lean-forward="true" selection-start-line="91" selection-start-column="1" selection-end-line="91" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/HelloWorld.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Mood.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1638" height="386" key="GridCell.Tab.0.bottom" timestamp="1580229097111">
+      <screen x="652" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1638" height="386" key="GridCell.Tab.0.bottom/652.-1057.1920.1057/0.23.1680.974/-1268.-1057.1920.1057@0.23.1680.974" timestamp="1580227813606" />
+    <state width="1638" height="386" key="GridCell.Tab.0.bottom/652.-1080.1920.1080/0.0.1680.1050/-1268.-1080.1920.1080@652.-1080.1920.1080" timestamp="1580229097111" />
+    <state width="1638" height="386" key="GridCell.Tab.0.center" timestamp="1580229097109">
+      <screen x="652" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1638" height="386" key="GridCell.Tab.0.center/652.-1057.1920.1057/0.23.1680.974/-1268.-1057.1920.1057@0.23.1680.974" timestamp="1580227813604" />
+    <state width="1638" height="386" key="GridCell.Tab.0.center/652.-1080.1920.1080/0.0.1680.1050/-1268.-1080.1920.1080@652.-1080.1920.1080" timestamp="1580229097109" />
+    <state width="1638" height="386" key="GridCell.Tab.0.left" timestamp="1580229097108">
+      <screen x="652" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1638" height="386" key="GridCell.Tab.0.left/652.-1057.1920.1057/0.23.1680.974/-1268.-1057.1920.1057@0.23.1680.974" timestamp="1580227813603" />
+    <state width="1638" height="386" key="GridCell.Tab.0.left/652.-1080.1920.1080/0.0.1680.1050/-1268.-1080.1920.1080@652.-1080.1920.1080" timestamp="1580229097108" />
+    <state width="1638" height="386" key="GridCell.Tab.0.right" timestamp="1580229097110">
+      <screen x="652" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1638" height="386" key="GridCell.Tab.0.right/652.-1057.1920.1057/0.23.1680.974/-1268.-1057.1920.1057@0.23.1680.974" timestamp="1580227813605" />
+    <state width="1638" height="386" key="GridCell.Tab.0.right/652.-1080.1920.1080/0.0.1680.1050/-1268.-1080.1920.1080@652.-1080.1920.1080" timestamp="1580229097110" />
+    <state x="410" y="184" key="SettingsEditor" timestamp="1580229565010">
+      <screen x="0" y="23" width="1680" height="974" />
+    </state>
+    <state x="410" y="184" key="SettingsEditor/652.-1057.1920.1057/0.23.1680.974/-1268.-1057.1920.1057@0.23.1680.974" timestamp="1580229565010" />
+    <state x="1121" y="-901" key="SettingsEditor/652.-1080.1920.1080/0.0.1680.1050/-1268.-1080.1920.1080@652.-1080.1920.1080" timestamp="1580229090186" />
+    <state x="519" y="341" key="com.intellij.ide.util.TipDialog" timestamp="1588298497103">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="519" y="341" key="com.intellij.ide.util.TipDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1588298497103" />
+    <state x="519" y="341" key="com.intellij.ide.util.TipDialog/0.23.1680.970@0.23.1680.970" timestamp="1588218337972" />
+    <state x="519" y="342" key="com.intellij.ide.util.TipDialog/652.-1057.1920.1057/0.23.1680.974/-1268.-1057.1920.1057@0.23.1680.974" timestamp="1580229587630" />
+    <state x="1245" y="-726" key="com.intellij.ide.util.TipDialog/652.-1080.1920.1080/0.0.1680.1050/-1268.-1080.1920.1080@652.-1080.1920.1080" timestamp="1580229151356" />
   </component>
   <component name="masterDetails">
     <states>
