@@ -1,9 +1,11 @@
 fun main(args: Array<String>) {
     val extendedInterfaceSubChild = ExtendedInterfaceSubChild()
+    val abstractImpl = AbstractImpl()
+    abstractImpl.printAbstractFunc()
 
 }
 
-open class InterfaceEx {
+open class InterfaceExClass {
     var id = 0
 
     constructor(id: Int) {
@@ -15,7 +17,7 @@ open class InterfaceEx {
     }
 }
 
-open class ExtendInterfaceEx : InterfaceEx {
+open class ExtendInterfaceEx : InterfaceExClass {
 
     constructor(id: Int) : super(id)
 
@@ -29,4 +31,16 @@ class ExtendedInterfaceSubChild : ExtendInterfaceEx(1) {
         println("I am sub child")
     }
 
+}
+
+abstract class AbstractSample {
+    open fun printAbstract() = println("I am abstract")
+    abstract fun printAbstractFunc()
+}
+
+class AbstractImpl : AbstractSample() {
+    override fun printAbstract() = println("I am abstract")
+    override fun printAbstractFunc() {
+        print("I am abstract func")
+    }
 }
